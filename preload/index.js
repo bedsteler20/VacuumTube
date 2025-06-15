@@ -8,7 +8,8 @@ let modules = [
     require('./modules/override-f11'),
     require('./modules/adblock'),
     require('./modules/h264ify'),
-    require('./modules/settings')
+    require('./modules/settings'),
+    require('./modules/hide-shorts'),
 ]
 
 if (location.host === 'www.youtube.com') {

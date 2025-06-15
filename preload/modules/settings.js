@@ -61,7 +61,13 @@ module.exports = async () => {
             'Makes VacuumTube launch with the window pinned on top of every other window. Doesn\'t apply in Steam Game Mode, where it\'s always on top.',
             null,
             'keep_on_top'
-        )
+        ),
+        'hide_shorts': createSettingBooleanRenderer(
+            'Hide Shorts',
+            'Hides YouTube Shorts from the home, subscription and channel pages. Search and library pages are unaffected. Restart after toggling.',
+            null,
+            'hide_shorts'
+        ),
     }
 
     rcMod.addInputModifier((input) => {
